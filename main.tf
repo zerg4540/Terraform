@@ -1,7 +1,8 @@
 terraform {
   required_providers {
     yandex = {
-      source = "yandex-cloud/yandex"
+      source  = "yandex-cloud/yandex"
+      version = "~> 0.85.0"
     }
   }
 }
@@ -12,7 +13,6 @@ provider "yandex" {
   folder_id = "b1ghsb082luaf373gs12"
   zone      = "ru-central1-a"
 }
-
 variable "virtual_machines" {
   description = "Configuration for virtual machines"
   type = map(object({
