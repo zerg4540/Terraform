@@ -8,8 +8,8 @@ terraform {
 
 provider "yandex" {
   token     = "y0__xCCzJGhARjB3RMg-pfc7BIwh9ak2QcIN77xtDdXsWmM-IOjLnmG4XF3Fw"
-  cloud_id  = "b1g04rcjkqi795mqan9i"
-  folder_id = "b1g2juipn7k7806uoicu"
+  cloud_id  = "b1gjuvob50e594gpsoqq"
+  folder_id = "b1ghsb082luaf373gs12"
   zone      = "ru-central1-a"
 }
 
