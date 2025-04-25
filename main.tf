@@ -65,7 +65,7 @@ resource "yandex_compute_instance" "virtual_machine" {
   }
 
   metadata = {
-    ssh-keys = "admin:${file("keytest.pub")}"
+    ssh-keys = "zerg4540:${file("id_ed25519.pub")}"
   }
 }
 
