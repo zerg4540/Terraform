@@ -1,12 +1,10 @@
 terraform {
   required_providers {
     yandex = {
-      source  = "yandex-cloud/yandex"
-      version = "~> 0.85.0"
+      source  = "terraform-registry.storage.yandexcloud.net/yandex-cloud/yandex"
     }
   }
 }
-
 provider "yandex" {
   token     = "y0__xCR4_PVBRjB3RMgjcau9hKBFaclQrrul_fXQNhADXkndxtO0w"
   cloud_id  = "b1gjuvob50e594gpsoqq"
